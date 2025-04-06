@@ -45,9 +45,7 @@ function createNote() {
 }
 
 
-/*************************************************************************
- * Display Notes Logic
- **************************************************************************/
+
 
 function displayNotes() {
     const notesList = document.getElementById('notes-list');
@@ -69,9 +67,7 @@ function displayNotes() {
 }
 
 
-/*************************************************************************
- * Edit Note Popup Logic
- **************************************************************************/
+
 
 function editNote(noteId) {
     const notes = JSON.parse(localStorage.getItem('notes')) || [];
@@ -128,9 +124,7 @@ function updateNote() {
     }
 }
 
-/*************************************************************************
- * Delete Note Logic
- **************************************************************************/
+
 
 function deleteNote(noteId) {
     let notes = JSON.parse(localStorage.getItem('notes')) || [];
