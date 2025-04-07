@@ -1,4 +1,5 @@
 # note-app
-this is my first project
+this is my first project and it is very simple application.<br>
+drawback :- No Backend
 <br>
-html, css and javscript
+Languages used :- html, css and javscript
